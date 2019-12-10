@@ -1,1 +1,53 @@
-Nome: milenaDuarte/*avaliação 1,2,3*/public class avaliacaoUsuario{    public Stringnome;    public String cpf;    public Stringemail;    public StringdataNascimento;    public Stringsenha;    publicavaliacaoUsuario(){        nome="";        cpf="";        email="";       dataNascimento=" ";        senha="";    }    public voidsetNome(String valor){        nome=valor;    }    public StringgetNome(){        return nome;    }    public voidsetCpf(String valor){        cpf=valor;    }    public StringgetCpf(){        return cpf;    }    public voidsetEmail(String valor){        email=valor;    }    public StringgetEmail(){        return email;    }    public voidsetDataNascimento(String valor){       dataNascimento=valor;    }    public StringgetDataNascimento(){        returndataNascimento;    }    public voidsetSenha(String valor){        senha=valor;    }    public StringgetSenha(){        return senha;}}/*exercício 5, 6, 7*/public class avaliacaoArrays{    public static voidmain(String[]args){       int[]inteiros={-4,-3,-2,-1,0,1,2,3,4};        int count=0;       System.out.println(inteiros[3]);                 for(inti=0;i<inteiros.length;i++){           if(inteiros[i]<0){                count++;                                                    }       System.out.println(+i);    }    for(inti=0;i<inteiros.length; i++){       System.out.print(+i);    }           }}
+Nome: milenaDuarte
+/*avaliação 1,2,3*/
+public class avaliacaoUsuario
+{    
+public Stringnome;    
+public String cpf;    
+public Stringemail;    
+public StringdataNascimento;    
+public Stringsenha;    
+publicavaliacaoUsuario()
+{        
+nome="";        
+cpf="";        
+email="";       
+dataNascimento=" ";        
+senha="";    
+}    
+public voidsetNome(String valor){        
+nome=valor;    }    
+public StringgetNome(){        
+return nome;    }    
+public voidsetCpf(String valor){        
+cpf=valor;    }    
+public StringgetCpf(){        
+return cpf;    }    
+public voidsetEmail(String valor){        
+email=valor;    }    
+public StringgetEmail(){        
+return email;    }    
+public voidsetDataNascimento(String valor){       
+dataNascimento=valor;    }    
+public StringgetDataNascimento(){        
+returndataNascimento;    }    
+public voidsetSenha(String valor){        
+senha=valor;    }    
+public StringgetSenha(){        
+return senha;}
+}
+/*exercício 5, 6, 7*/
+public class avaliacaoArrays
+{    
+public static voidmain(String[]args){       
+int[]inteiros={-4,-3,-2,-1,0,1,2,3,4};        
+int count=0;       System.out.println(inteiros[3]);                 
+for(inti=0;i<inteiros.length;i++){           
+if(inteiros[i]<0){                
+count++;                                                   
+}       
+System.out.println(+i);    }    
+for(inti=0;i<inteiros.length; i++){       
+System.out.print(+i);    }           
+}
+}
